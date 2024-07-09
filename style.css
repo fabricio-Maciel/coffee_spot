@@ -1,0 +1,79 @@
+body {
+  font-family: "Poppins";
+}
+
+.navbar {
+  background-color: #734022;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #734022;
+}
+
+#cabecalho .nav .nav-link,
+.nav-cardapio .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  box-shadow: none !important;
+  background-color: #fff;
+}
+
+.font-title {
+  font-family: "Niconne", cursive;
+}
+
+.font-title span {
+  color: #734022;
+}
+
+#eventos,
+#contato {
+  background-color: #dd9e79;
+  padding: 88px 0;
+}
+
+#cardapio {
+  padding: 88px 0;
+}
+
+#eventos img {
+  object-fit: cover;
+  height: 450px;
+  margin-bottom: 1rem;
+}
+
+.text-colored {
+  color: #734022;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+  background-color: #734022;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  background-color: #734022;
+  color: #fff;
+}
+
+#contato button:hover {
+  background-color: #fff;
+  color: #734022;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #734022;
+}

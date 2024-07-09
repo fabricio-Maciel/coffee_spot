@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Spot | Cafeteria </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg sticky-top py-3" id="cabecalho">
+    <div class="container">
+      <h1 class="text-white font-title">Coffee Spot</h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end mt-2 mt-md-0" id="menuNavegacao">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item fw-medium">
+            <a class="nav-link" href="#sobre">
+              <i class="bi bi-house-door"></i>
+              Sobre
+            </a>
+          </li>
+          <li class="nav-item fw-medium">
+            <a class="nav-link" href="#eventos">Eventos</a>
+          </li>
+          <li class="nav-item fw-medium">
+            <a class="nav-link" href="#cardapio">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+      <section id="sobre">
+        <div class="container-fluid p-0">
+          <div class="carousel slide pb-5" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active " data-bs-interval="2000">
+                <img src="images/slides/slide1.jpg" alt="Maquina de café" class="mw-100">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/slides/slide2.jpg" alt="Café da manhã" class="mw-100">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/slides/slide3.jpg" alt="Fazendo café" class="mw-100">
+              </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#carousel" type="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel" type="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+              <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+          </div>
+        </div>
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-xl-7 col-lg-7">
+              <img src="images/cafeteria.jpg" class="d-block w-100" alt="Foto da cafeteria">
+            </div>
+            <div class="col-xl-5 col-lg-5">
+              <h2 class="font-title display-4">a <span>Cafeteria</span></h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora mollitia quos, aperiam dolorum qui accusantium eaque possimus quo non autem officiis dolore.</p>
+              <h3 class="font-title display-5 pt-4">Sobre o <span>espaço</span></h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ullam voluptates nobis atque sunt reprehenderit laboriosam quae delectus nam reiciendis numquams.</p>
+              <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="eventos" class="text-white">
+        <div class="container">
+          <div class="row">
+            <h2 class=" text-center py-5">Para todas as ocasiões</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <img src="images/eventos/competicoes.jpg" alt="" class="d-block w-100 rounded">
+              <h3 class="section-title text-colored">Competições</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maxime vitae nobis quos magni, iste voluptatibus voluptatum totam molestias atque</p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img src="images/eventos/confraternizacao.jpg" alt="" class="d-block w-100 rounded">
+              <h3 class="section-title text-colored">Confraternizações</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maxime vitae nobis quos magni, iste voluptatibus voluptatum totam molestias atque</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="images/eventos/reuniao.jpg" alt="Reunião de pessoas" class="d-block w-100 rounded">
+              <h3 class="section-title text-colored">Reuniões</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maxime vitae nobis quos magni, iste voluptatibus voluptatum totam molestias atque</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="cardapio">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center py-5">
+              Nosso <span class="text-colored">Cardápio</span>
+            </h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-2">
+              <nav class="nav nav-pills flex-column nav-cardapio">
+                <button type="button" data-bs-toggle="tab" data-bs-target="#specialties" class="nav-link fw-bold text-start text-colored active">Specialties</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#hot" class="nav-link fw-bold text-start text-colored">Hot</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#ice" class="nav-link fw-bold text-start text-colored">Ice</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#expresso" class="nav-link fw-bold text-start text-colored">Expresso</button>
+              </nav>
+            </aside>
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="specialties">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">MOKA LATTE</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee2.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">AVELÃ LATTE</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee3.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">SWISS MOKA</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee4.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">CARAMEL LATTE</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="hot">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee5.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">HOT VANILLA</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee6.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">HOT AVELÃ</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee7.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">HOT MOKA</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee8.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">HOT SWISS</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="ice">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">ICE VANILLA</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee2.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">ICE AVELÃ</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee3.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">ICE MOKA</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee4.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">ICE SWISS</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="expresso">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee5.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">EXPRESSO VANILLA</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee6.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">EXPRESSO AVELÃ</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee7.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">EXPRESSO MOKA</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <img class="d-block w-100" src="images/cardapio/coffee8.jpg" alt="Café">
+                      <h3 class="text-colored h4 pt-2">EXPRESSO SWISS</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="py-5 text-white">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center py-5">Fale <span class="text-colored">conosco</span></h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label">Seu nome</label>
+                  <input type="text" id="nome" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label for="telefone" class="form-label">Seu telefone (opicional)</label>
+                  <input type="tel" id="telefone" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Seu e-mail</label>
+                  <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label for="mensagem" class="form-label">Sua mensagem</label>
+                  <textarea id="mensagem" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn fw-bold">Enviar</button>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <h3 class="font-title fs-1 text-colored">Redes sociais</h3>
+                <ul class="list-unstyled social-links d-flex">
+                  <li class="fs-3">
+                    <a href="#">
+                      <i class="bi bi-facebook text-white"></i>
+                    </a>
+                  </li>
+                  <li class="fs-3 mx-md-2 mx-4">
+                    <a href="#">
+                      <i class="bi bi-instagram text-white"></i>
+                    </a>
+                  </li>
+                  <li class="fs-3">
+                    <a href="#">
+                      <i class="bi bi-whatsapp text-white"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <h3 class="font-title fs-1 text-colored">Endereço</h3>
+                <p>Rua Logo Ali nº 145, Bairro Bootstrap - Rio de Janeiro - RJ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="py-3 text-center text-white">&copy; 2024 Coffee Spot. Todos os direitos reservados.</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
